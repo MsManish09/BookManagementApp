@@ -4,8 +4,10 @@ import { booksData } from "../utils/bookData"
 
 function Header({books, setBooks}){
 
+    // to filter from the original list
     const originalBooklist = booksData
 
+    // search functionality logic
     function handleSearch(searchValue){
 
         const searchBook = searchValue.target.value.toLowerCase()

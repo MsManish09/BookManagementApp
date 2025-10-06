@@ -10,8 +10,6 @@ import { booksData } from "./utils/bookData"
 function App(){
 
   const [books, setBooks] = useState(booksData)
-  
-  
 
   return(
     <div>
